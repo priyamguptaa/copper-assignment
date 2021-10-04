@@ -1,0 +1,38 @@
+.parent {
+    position: relative;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .content {
+        color: #fff;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        max-width: 38%;
+        // font-family: Nunito;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-align: left;
+
+        h1 {}
+
+        button {
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: 1px solid #fff;
+            background: transparent;
+            color: #fff;
+        }
+
+        .text {
+            margin-bottom: 30px;
+        }
+    }
+
+}

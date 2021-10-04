@@ -1,0 +1,33 @@
+<div class="main-nav">
+
+    <div class=" h-100 d-flex align-items-center">
+        <img width="100px" src="assets/images/Logo.png">
+    </div>
+    <div class="nav-links h-100">
+        <a href="#" [ngClass]="{'selectedLink': currentActiveLink == 0}" (click)="selectedNavlink(0)">
+            Home
+        </a>
+        <a href="#" [ngClass]="{'selectedLink': currentActiveLink == 1}" (click)="selectedNavlink(1)">
+            Services
+        </a>
+        <a href="#" [ngClass]="{'selectedLink': currentActiveLink == 2}" (click)="selectedNavlink(2)">
+            Our Team
+        </a>
+        <a href="#" [ngClass]="{'selectedLink': currentActiveLink == 3}" (click)="selectedNavlink(3)">
+            Testimonials
+        </a>
+        <a href="#" [ngClass]="{'selectedLink': currentActiveLink == 4}" (click)="selectedNavlink(4)">
+            Blog
+        </a>
+
+    </div>
+
+    <div class="d-flex h-100">
+        <div style="margin-right: 40px;" class="d-flex align-items-center">
+            Steven Mitrick
+        </div>
+        <div class="d-flex align-items-center">
+            <img class="cursor-p" width="20px;" src="assets/images/log out.png" alt="" srcset="">
+        </div>
+    </div>
+</div>
