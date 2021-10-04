@@ -37,6 +37,7 @@
         img {
             height: 148px;
             margin-right: 20px;
+            object-fit: cover;
         }
 
     }
@@ -60,7 +61,7 @@
 
     a {
         color: #00BFA5;
-        font-family: Nunito;
+        // font-family: Nunito;
         font-size: 13px;
         font-weight: 400;
         text-decoration: none;
